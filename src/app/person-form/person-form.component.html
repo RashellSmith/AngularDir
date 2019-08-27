@@ -1,0 +1,40 @@
+
+<div class="container">
+    <h1>Person Form</h1>
+    <form #personForm = "ngForm">
+      <div class="form-group">
+        <label for="firstName">First Name</label>
+        <input type="text" class="form-control" id="firstName" 
+        required
+        [(ngModel)]="model.firstName" name="firstName"
+        #firstName="ngModel">
+        <div [hidden]="firstName.valid || firstName.pristine"
+        class="alert alert-danger">
+        Name is required
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="lastName">Last Name</label>
+        <input type="text" class="form-control" id="lastName" 
+        [(ngModel)]="model.lastName" name="lastName"
+        required>
+      </div>
+      <div class="form-group">
+        <label for="age">Age</label>
+        <input type="number" class="form-control" id="age"
+        [(ngModel)]="model.age" name="age"
+        >
+      </div>
+      <div class="form-group">
+        <label for="education">Education</label>
+        <select class="form-control" id="education" 
+        [(ngModel)]="model.education" name="education"
+          required>
+          <option *ngFor="let ed of education" [value]="ed">{{ed}}</option>
+        </select>
+      </div>
+      <button type="submit" class="btn btn-success">Submit</button>
+      <button type="button" class="btn btn-default" (click)="newPerson()">New Person</button>
+      
+    </form>
+</div>
