@@ -1,4 +1,5 @@
-[logo]:https://i.ibb.co/J73wPr1/Blue-Black-and-White-Automotive-Logo.png
+![alt text](http://url/to/https://i.ibb.co/J73wPr1/Blue-Black-and-White-Automotive-Logo.png)
+
 
 <div style="border: .25rem solid;padding: 10px;"> 
 <span  style="font-size: 1rem;"> Objectives <span>
