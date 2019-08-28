@@ -1,7 +1,9 @@
-![https://i.ibb.co/J73wPr1/Blue-Black-and-White-Automotive-Logo.png](https://i.ibb.co/J73wPr1/Blue-Black-and-White-Automotive-Logo.png)
 
 
-<div style="border: .25rem solid;padding: 10px;"> 
+
+<div style="border: .25rem solid;padding: 10px; background-color:black;"> 
+<div style="margin: auto; text-align: center;"> ![https://i.ibb.co/J73wPr1/Blue-Black-and-White-Automotive-Logo.png](https://i.ibb.co/J73wPr1/Blue-Black-and-White-Automotive-Logo.png) </div>
+  
 <span  style="font-size: 1rem;"> Objectives <span>
 
 <span style="font-size: .9rem;">
@@ -30,4 +32,4 @@ Part Three (In Progress)
 - Use the materials and PrimeNg model in your project and test out diffrent styles and options
 </span>
 
-<div>
+</div>
