@@ -1,4 +1,4 @@
-# Angular Directory (8/5/19 - 8/23/19)<span style="color:red;">
+
 
 
 <span style = "color:red">[TTS Angular Project](https://github.com/jordanmor/tts-angular-project)<span>
