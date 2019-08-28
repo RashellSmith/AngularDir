@@ -1,8 +1,5 @@
 
 
-
-<span style = "color:red">[TTS Angular Project](https://github.com/jordanmor/tts-angular-project)<span>
-
 Objectives 
 
 <span style="font-size:.9rem;">Part one</span> (completed)
